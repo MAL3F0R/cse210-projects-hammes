@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 
 class Program
 {
-    static void ExitOption()
+    internal static void ExitOption()
     {
         Console.Clear();
         Environment.Exit(0);
     }
-    static void Main()
+    private static void Main()
     {
         bool keepLooping = true;
         int userDuration = 0;
